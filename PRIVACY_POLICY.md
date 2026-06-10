@@ -1,39 +1,37 @@
-# Device Care – Privacy Policy
+# Privacy Policy
 
-**Last Updated:** Jun 10, 2026
+## 1. Data Collection
 
-Device Care ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we handle information within the Device Care mobile application available on the Google Play Store.
+We collect minimal personal data necessary to provide our maintenance services. This may include your GitHub username, public profile information, and application configuration details when you explicitly connect your account.
 
-## 1. Privacy-First & Offline Principle
+## 2. Private Repository Security
 
-Device Care is built as an offline-first utility and system monitoring suite. We do not collect, store, transmit, or share any personal data, user identifier strings, or device usage histories to external servers. All system scans, storage analyses, and metric calculations happen locally and privately on your physical device.
+Our application accesses your GitHub repositories using restricted OAuth tokens. We maintain strict confidentiality, and your private source code is processed entirely in-memory without being stored on our external servers.
 
-## 2. Information Handled & Technical Permissions
+## 3. Usage Analytics
 
-To provide high-end hardware diagnostic monitoring, Device Care requests specific system permissions. These permissions are utilized strictly for local automation and on-device data display:
-
-- **Notification Access (NotificationListenerService):** This permission is used exclusively to populate your local, searchable notification history archive. This data stays entirely offline in your private local app database and is never transmitted.
-
-- **Usage Statistics (PACKAGE_USAGE_STATS & QUERY_ALL_PACKAGES):** This data is accessed locally to calculate active screen time, track device performance spikes, and display your application inventory.
-
-- **Media Storage Access (READ_MEDIA_ descriptors):** Used locally to analyze folder structures, identify duplicate files via secure local hashing, and calculate recoverable junk space within standard public directories (Downloads, DCIM, Documents).
-
-## 3. Data Retention and Deletion
-
-Because Device Care does not utilize cloud servers, we do not store your data externally. Any locally cached data—such as your notification history archive or system health reports—is stored within the app's protected local storage.
-
-You can manually wipe this data at any time using the "Clear All" features inside the application interface.
-
-Uninstalling the Device Care application automatically deletes all locally stored databases and associated files permanently.
+We collect anonymous technical data, such as device type, operating system version, crash logs, and feature usage statistics. This data is used solely to optimize application stability and performance.
 
 ## 4. Third-Party Services
 
-Device Care does not include third-party advertising networks, analytics tracking software development kits (SDKs), or data-brokerage hooks that secretly track or profile user behavior.
+We may utilize trusted third-party SDKs (such as Firebase Crashlytics) to monitor application bugs. These providers process data in compliance with their own privacy policies and do not have access to your repository data.
 
-## 5. Compliance with the Google Play Developer Policy
+## 5. Data Retention
 
-This policy complies fully with the Google Play Developer Program Policies, specifically the Personal and Sensitive Information, Prominent Disclosure, and Scoped Storage deployment clauses [finalized].
+Your account configurations and temporary cache files are stored locally on your device. This data is permanently erased immediately if you log out of the application or uninstall it from your device.
 
-## 6. Contact Information
+## 6. User Control and Access
 
-If you have any questions or feedback regarding this offline Privacy Policy, please contact the developer directly at: crishcatalin@gmail.com
+You retain full control over your data. You can inspect, modify, or delete your saved configurations directly within the application's settings menu at any time.
+
+## 7. GitHub Token Revocation
+
+You can terminate our application's access to your source code at any moment. Access can be instantly revoked through your GitHub account applications settings panel.
+
+## 8. Policy Updates
+
+We may periodically update this Privacy Policy to reflect changes in our development practices or legal obligations. We will notify users of significant updates via in-app notices.
+
+## 9. Contact and Inquiries
+
+If you have any questions, concerns, or requests regarding this Privacy Policy or how your data is handled, you can reach out to our development team via the repository issues page.
