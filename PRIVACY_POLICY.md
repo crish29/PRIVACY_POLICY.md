@@ -1,5 +1,7 @@
 # Privacy Policy
 
+**Last Updated:** May 26, 2026
+
 ## 1. Data Collection
 
 We collect minimal personal data necessary to provide our maintenance services. This may include your GitHub username, public profile information, and application configuration details when you explicitly connect your account.
@@ -34,4 +36,4 @@ We may periodically update this Privacy Policy to reflect changes in our develop
 
 ## 9. Contact and Inquiries
 
-If you have any questions, concerns, or requests regarding this Privacy Policy or how your data is handled, you can reach out to our development team via the repository issues page.
+If you have any questions, concerns, or requests regarding this Privacy Policy or how your data is handled, you can reach out to our development team via the repository issues page or email us at: crishcatalin@gmail.com
