@@ -2,8 +2,8 @@
 
 **Effective date:** September 18, 2026
 **Last updated:** September 18, 2026
-**Developer:** [DEVELOPER / COMPANY NAME]
-**Contact:** [CONTACT EMAIL]
+**Developer:** crish29
+**Contact:** crishcatalin@gmail.com
 
 ---
 
@@ -136,7 +136,7 @@ on Google Play.
 
 Questions about this policy or about privacy in DeviceCare:
 
-**[CONTACT EMAIL]**
+**crishcatalin@gmail.com**
 
 ---
 
