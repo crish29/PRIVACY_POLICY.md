@@ -79,14 +79,14 @@ nothing back.
 
 | Permission | Why DeviceCare asks for it |
 |---|---|
-| **All files access** (`MANAGE_EXTERNAL_STORAGE`) | Storage Analyzer and Junk Cleaner must see every file on shared storage to report what is using your space, find duplicates, and find leftovers. Without it, the app can only see a small subset. |
+| **All files access** (`MANAGE_EXTERNAL_STORAGE`) | Storage Analyzer and Junk Cleaner must see every file on shared storage to report what is using your space, find duplicates, and find leftovers. |
 | **Read media** (`READ_MEDIA_IMAGES`, `READ_MEDIA_VIDEO`, `READ_MEDIA_AUDIO`) | The Photos / Videos / Audio categories, used on Android 13+. |
 | **Read storage** (`READ_EXTERNAL_STORAGE`) | The same access on Android 12 and older. |
 | **Query all packages** (`QUERY_ALL_PACKAGES`) | The Apps screen lists your installed apps. Android hides installed packages from apps by default; this permission is what allows the list to be complete. |
-| **Usage access** (`PACKAGE_USAGE_STATS`) | Powers the Usage screen — which apps you open and how often. This is a special access you grant in system Settings, and DeviceCare can only read it, never alter it. |
+| **Usage access** (`PACKAGE_USAGE_STATS`) | Powers the Usage screen — which apps you open and how often. This is a special access you grant in system Settings, and DeviceCare can only read it, never write to it. |
 | **Network state** (`ACCESS_NETWORK_STATE`, `ACCESS_WIFI_STATE`) | Showing connection type, Wi-Fi details, and whether you are online. |
 | **Phone state** (`READ_PHONE_STATE`) | Reading the mobile network type (LTE / 5G) on the Network screen. Requested at runtime the first time you open it. |
-| **Delete packages** (`REQUEST_DELETE_PACKAGES`) | Required since Android 8 for the system's uninstall dialog to appear. The app **cannot** uninstall anything itself — it only asks the system to show the confirmation dialog, and you decide. |
+| **Delete packages** (`REQUEST_DELETE_PACKAGES`) | Required since Android 8 for the system's uninstall dialog to appear. The app **cannot** uninstall anything itself — it only asks the system to show the uninstall dialog. |
 | **Internet** (`INTERNET`) | Solely the public-IP lookup in section 2. |
 
 You can decline or revoke any of these in Android Settings. Screens that depend on a permission
