@@ -1,7 +1,7 @@
 # Privacy Policy for DevCare
 
 **Effective date:** September 18, 2026
-**Last updated:** September 18, 2026
+**Last updated:** September 22, 2026
 **Developer:** crish29
 **Contact:** crishcatalin@gmail.com
 
@@ -95,15 +95,23 @@ will not function without it; the rest of the app will.
 ## 5. Files: what DevCare writes
 
 - **It reads** files on shared storage to analyse them.
-- **It writes only to its own private app storage** — the locations Android reserves for the app,
+- **It writes to its own private app storage** — the locations Android reserves for the app,
   which are not visible to other apps and are removed when you uninstall:
   - the **Recycle Bin**, where files you delete are kept so you can restore them;
-  - extracted APKs, when you ask the app to extract an installed app's installation file;
-  - a cached index of your file listing, and cached app icons, so screens open faster.
-- **It deletes** a file only when you explicitly tell it to, and only after a confirmation dialog.
-  Deleted files go to the Recycle Bin first, not to oblivion, unless you choose to delete them
-  permanently.
-- **It never modifies** the contents of your files.
+  - a cached index of your file listing, and cached app icons and thumbnails, so screens open
+    faster;
+  - a report file, written only when you ask the app to share one.
+- **It writes to shared storage only when you ask it to**, and only where you choose:
+  - copying or moving files and folders into a destination folder you pick;
+  - renaming files and folders, and creating new folders or empty files;
+  - compressing a file or folder into a `.zip` beside the original.
+- **It deletes** files when you tell it to, after a confirmation dialog. Those go to the Recycle
+  Bin first — with one exception: **empty folders and temporary files** removed by the Junk Cleaner
+  are deleted permanently and cannot be restored.
+- **Items in the Recycle Bin are kept for 30 days**, then removed automatically. You can restore
+  them, delete them one by one, or empty the bin before then.
+- **It never modifies** the contents of your files. Renaming, copying, moving and compressing all
+  leave the original contents untouched.
 
 ## 6. Retention and your control
 
