@@ -60,7 +60,7 @@ previously fetched value is more than 5 minutes old — DevCare sends a plain `G
 That is the entire network activity of this app. There is no other outbound connection.
 
 **Links and shares, opened by you.** DevCare can hand something to another app when you ask it
- to: opening an app's Google Play listing (for example, after uninstalling), sharing a file, or
+to: opening an app's Google Play listing (for example, after uninstalling), sharing a file, or
 opening a file in a viewer. These leave the app only through the Android system share sheet or a
 link, and they go to whichever app you pick. The app sends nothing about you to us, and receives
 nothing back.
